@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "run-sequence": "^1.1.2"
+  },
+  "name": "AspNet5ModularApp",
+  "version": "1.0.0"
+}

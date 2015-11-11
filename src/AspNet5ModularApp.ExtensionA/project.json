@@ -1,0 +1,14 @@
+﻿{
+  "authors": [ "Dmitry Sikorsky" ],
+  "dependencies": {
+    "AspNet5ModularApp.Infrastructure": "1.0.0",
+    "Microsoft.AspNet.Mvc": "6.0.0-beta8"
+  },
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": { }
+  },
+  "projectUrl": "",
+  "resource": "Views/**",
+  "version": "1.0.0-*"
+}

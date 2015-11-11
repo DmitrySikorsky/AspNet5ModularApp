@@ -1,0 +1,6 @@
+.svn/
+.vs/
+artifacts/
+src/AspNet5ModularApp/node_modules/
+*.user
+*.lock.json
