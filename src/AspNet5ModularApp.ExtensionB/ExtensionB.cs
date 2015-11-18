@@ -10,7 +10,7 @@ using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Routing;
 using Microsoft.Framework.DependencyInjection;
 
-namespace AspNet5ModularApp.ExtensionA
+namespace AspNet5ModularApp.ExtensionB
 {
   public class ExtensionB : IExtension
   {

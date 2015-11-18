@@ -55,9 +55,9 @@ but your can easily add implementations for other storages).
 
 ## Known Issues
 
-1. Different AspNet5 projects use different versions of System.*, I decided just to put Microsoft.AspNet.Mvc as dependency in all
+1. Different AspNet5 projects use different versions of System.Xxx, I decided just to put Microsoft.AspNet.Mvc as dependency in all
 the projects to have same set of the dependencies in all projects, but this is WRONG. So Microsoft.AspNet.Mvc should be replaced
-with for example some version of System.Linq etc, but in this case I got compilation errors because of different versions of System.*
+with for example some version of System.Linq etc, but in this case I got compilation errors because of different versions of System.Xxx
 in different projects. Will fix this later and will appreciate any help.
 2. Because  the main web application doesn’t have some dependencies the modules need, I had to put for example System.Reflection.dll
 and System.Reflection.TypeExtensions.dll to the folder with extensions. I really don’t like it and have to solve it too. 

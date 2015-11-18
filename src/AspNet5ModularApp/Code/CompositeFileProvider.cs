@@ -1,4 +1,5 @@
 ﻿// Used code from https://github.com/stuartleeks/ModularVNext/blob/master/src/ModularVNext/Infrastructure/CompositeFileProvider.cs
+// Used code from https://github.com/aspnet/Mvc/tree/dev/test/WebSites/RazorEmbeddedViewsWebSite
 
 using System;
 using System.Collections;
