@@ -1,8 +1,9 @@
 ﻿// Used code from https://github.com/aspnet/Entropy/blob/dev/samples/Runtime.CustomLoader/Program.cs
 
+using System;
 using System.IO;
 using System.Reflection;
-using Microsoft.Dnx.Runtime;
+using Microsoft.Extensions.PlatformAbstractions;
 
 namespace AspNet5ModularApp
 {
@@ -20,6 +21,11 @@ namespace AspNet5ModularApp
     public Assembly Load(AssemblyName assemblyName)
     {
       return this.assemblyLoadContext.LoadFile(Path.Combine(this.path, assemblyName + ".dll"));
+    }
+
+    public IntPtr LoadUnmanagedLibrary(string name)
+    {
+      throw new NotImplementedException();
     }
   }
 }

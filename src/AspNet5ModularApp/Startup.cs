@@ -6,12 +6,11 @@ using System.Linq;
 using System.Reflection;
 using AspNet5ModularApp.Infrastructure;
 using Microsoft.AspNet.Builder;
-using Microsoft.AspNet.Diagnostics.Entity;
 using Microsoft.AspNet.FileProviders;
 using Microsoft.AspNet.Hosting;
 using Microsoft.AspNet.Mvc.Infrastructure;
-using Microsoft.Dnx.Runtime;
-using Microsoft.Framework.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.PlatformAbstractions;
 
 namespace AspNet5ModularApp
 {
@@ -54,7 +53,7 @@ namespace AspNet5ModularApp
       {
         applicationBuilder.UseBrowserLink();
         applicationBuilder.UseDeveloperExceptionPage();
-        applicationBuilder.UseDatabaseErrorPage(DatabaseErrorPageOptions.ShowAll);
+        applicationBuilder.UseDatabaseErrorPage();
       }
 
       else

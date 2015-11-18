@@ -4,13 +4,13 @@
   },
   "dependencies": {
     "AspNet5ModularApp.Infrastructure": "1.0.0",
-    "EntityFramework.Sqlite": "7.0.0-beta8",
-    "Microsoft.AspNet.Diagnostics.Entity": "7.0.0-beta8",
-    "Microsoft.AspNet.FileProviders.Embedded": "1.0.0-beta8",
-    "Microsoft.AspNet.Mvc": "6.0.0-beta8",
-    "Microsoft.AspNet.Server.Kestrel": "1.0.0-beta8",
-    "Microsoft.AspNet.StaticFiles": "1.0.0-beta8",
-    "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-beta8"
+    "EntityFramework.Sqlite": "7.0.0-rc1-final",
+    "Microsoft.AspNet.Diagnostics.Entity": "7.0.0-rc1-final",
+    "Microsoft.AspNet.FileProviders.Embedded": "1.0.0-rc1-final",
+    "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
+    "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
+    "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
+    "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-rc1-final"
   },
   "exclude": [
     "wwwroot",

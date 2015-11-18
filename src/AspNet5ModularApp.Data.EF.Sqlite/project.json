@@ -3,7 +3,7 @@
   "dependencies": {
     "AspNet5ModularApp.Data.Abstractions": "1.0.0",
     "AspNet5ModularApp.Models.Abstractions": "1.0.0",
-    "EntityFramework.Sqlite": "7.0.0-beta8"
+    "EntityFramework.Sqlite": "7.0.0-rc1-final"
   },
   "frameworks": {
     "dnx451": { },

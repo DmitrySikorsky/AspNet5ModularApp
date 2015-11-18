@@ -3,7 +3,7 @@
   "dependencies": {
     "AspNet5ModularApp.Data.Abstractions": "1.0.0",
     "AspNet5ModularApp.ExtensionB.Models": "1.0.0",
-    "Microsoft.AspNet.Mvc": "6.0.0-beta8"
+    "Microsoft.AspNet.Mvc": "6.0.0-rc1-final"
   },
   "frameworks": {
     "dnx451": { },

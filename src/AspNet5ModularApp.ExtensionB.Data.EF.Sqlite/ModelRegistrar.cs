@@ -15,7 +15,7 @@ namespace AspNet5ModularApp.ExtensionB.Data.EF.Sqlite
         {
           etb.HasKey(e => e.Id);
           etb.Property(e => e.Id);
-          etb.ToSqliteTable("Items");
+          etb.ForSqliteToTable("Items");
         }
       );
     }

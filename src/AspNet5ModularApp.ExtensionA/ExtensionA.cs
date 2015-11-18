@@ -4,7 +4,7 @@
 using AspNet5ModularApp.Infrastructure;
 using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Routing;
-using Microsoft.Framework.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace AspNet5ModularApp.ExtensionA
 {
