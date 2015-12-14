@@ -2,6 +2,16 @@
 
 This sample shows how to build modular ASP.NET 5 application.
 
+## ExtCore
+
+I have created ExtCore framework you can freely use to build your modular and extendable ASP.NET 5 web applications.
+It is enough to add one NuGet dependency to ExtCore.WebApplication to make your web application modular and extendable.
+
+Please take a look at [ExtCore sources](https://github.com/ExtCore/ExtCore) and at the
+[sample project](https://github.com/ExtCore/ExtCore-Sample) on GitHub for details.
+
+Feel free to contact me!
+
 ## Quick Start
 
 1. Open the solution.
